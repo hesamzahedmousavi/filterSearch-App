@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+شnuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>filter products</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+          <h1>Product Filter</h1>
+          <div class="search-box">
+              <form action="" onsubmit="return false">
+                  <input type="text" id="search" placeholder="Search Product">
+              </form>
+          </div>
+          <div class="filter-box">
+              <a href="#" class="btn" data-filter="">All</a>
+              <a href="#" class="btn" data-filter="watch">Watch</a>
+              <a href="#" class="btn" data-filter="shirt">Shirt</a>
+              <a href="#" class="btn" data-filter="gown">Gown</a>
+              <a href="#" class="btn" data-filter="jewelry">Jewelry</a>
+          </div>
+      </div>
+  </header>
+    <section class="products">
+      <div class="products-center">
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../src/app.js"></script>
+  </body>
+</html>
